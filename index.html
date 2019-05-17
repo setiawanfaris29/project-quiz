@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Archivo|Bitter|Exo+2|Merriweather+Sans|Work+Sans"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="grid" id="containerQuiz">
+        <div class="judul">
+            <h1>Quiz Apps</h1>
+        </div>
+        <div>
+            <div id="question"></div>
+
+            <label class="option"><input type="radio" value="1" name="option"><span id="opt1">A</span></label>
+            <label class="option"><input type="radio" value="2" name="option"><span id="opt2">B</span></label>
+            <label class="option"><input type="radio" value="3" name="option"><span id="opt3">C</span></label>
+            <label class="option"><input type="radio" value="4" name="option"><span id="opt4">D</span></label>
+
+            <button id="nextButton" onclick="loadNextQuestion();">Check Question</button>
+        </div>
+        <div id="result" class="hasil" style="display:none;"></div>
+        <script src="assets/js/question.js"></script>
+        <script src="assets/js/app.js"></script>
+</body>
+
+</html>

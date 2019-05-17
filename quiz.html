@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Kuis</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="grid" id="quizContainer">
+        <div class="container-fluid">
+            <div class="judul">
+                <h1>Kuis</h1>
+            </div>
+            <div id="question" class="question"></div>
+            <div class="jawab">
+                <div class="label">
+                    <label class="option"><input type="radio" name="option" value="1"><span id="opt1"></span></label>
+                    <label class="option"><input type="radio" name="option" value="2"><span id="opt2"></span></label>
+                    <label class="option"><input type="radio" name="option" value="3"><span id="opt3"></span></label>
+                    <label class="option"><input type="radio" name="option" value="4"><span id="opt4"></span></label>
+                </div>
+            </div>
+            <button id="nextButton" class="nextQue" onclick="loadNextQuestion();">Next Question</button>
+        </div>
+    </div>
+    <div id="result" class="grid hasil" style="display:none;"></div>
+    <div id="back" class="btn-back" style="display:none;"></div>
+    <script src="assets/js/question.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
