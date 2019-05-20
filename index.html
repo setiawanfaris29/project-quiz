@@ -1,34 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Quiz</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Anton|Archivo|Bitter|Exo+2|Merriweather+Sans|Work+Sans"
-        rel="stylesheet">
+    <title>Let's Start Quiz</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="assets/img/Group 3.png" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="grid" id="containerQuiz">
-        <div class="judul">
-            <h1>Quiz Apps</h1>
-        </div>
-        <div>
-            <div id="question"></div>
 
-            <label class="option"><input type="radio" value="1" name="option"><span id="opt1">A</span></label>
-            <label class="option"><input type="radio" value="2" name="option"><span id="opt2">B</span></label>
-            <label class="option"><input type="radio" value="3" name="option"><span id="opt3">C</span></label>
-            <label class="option"><input type="radio" value="4" name="option"><span id="opt4">D</span></label>
 
-            <button id="nextButton" onclick="loadNextQuestion();">Check Question</button>
+    <div class="container">
+        <div class="container-fluid">
+            <div class="card text-left">
+                    <img src="assets/img/Group 2.png" alt="brand" width="80">
+              
+              <div class="card-body">
+                <h4 class="card-title">Title</h4>
+                <p class="card-text">Body</p>
+              </div>
+            </div>
         </div>
-        <div id="result" class="hasil" style="display:none;"></div>
-        <script src="assets/js/question.js"></script>
-        <script src="assets/js/app.js"></script>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
